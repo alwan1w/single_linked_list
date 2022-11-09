@@ -111,5 +111,12 @@ namespace single_linked_list
                 Console.WriteLine();
             }
         }
+        public bool listEmpty()
+        {
+            if (START == null)
+                return true;
+            else
+                return false;
+        }
     }
 }
